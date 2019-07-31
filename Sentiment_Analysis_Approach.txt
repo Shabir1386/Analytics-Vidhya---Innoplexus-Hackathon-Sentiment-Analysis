@@ -4,7 +4,7 @@ Steps Involved:
 
 1. Import the relevant libraries
 2. Import the train dataset from train file
-3. Pre-process the data to remove unnecessary columns from the list
+3. Pre-process the data in the dataset loaded from the file
 4. Import sklearn related libraries
 5. Clean-up the contents of the column "text"in the file
 6. Inspect the Cleaned dataset and change the case for the column "text"
