@@ -1,0 +1,23 @@
+Approach on building ML model to predict Sentiments:
+
+Steps Involved:
+
+1. Import the relevant libraries
+2. Import the train dataset from train file
+3. Pre-process the data to remove unnecessary columns from the list
+4. Import sklearn related libraries
+5. Clean-up the contents of the column "text"in the file
+6. Inspect the Cleaned dataset and change the case for the column "text"
+7. Import "CountVectorizer" to extract the Features and to Fit, Transform the DataFrame created so far
+8. Build the model using "LogisticRegression" and fitting the X_train, y_train data created using "train_test_split"
+9. Accuracy for different C values are achieved by this step and final model is built on
+10.Final model is built using appropriate C value and Final Accuracy is achieved
+11.Sentiments are predicted using splitted data of (X_test) with the Final model
+12.Inspect the weights for each of the tokens from the column "text" in the file
+13.Test the Final model built using the test file
+14.Predict the Sentiments for the dataset in the test file
+15.Concatenate unique_hash_df, sentiment columns data in DataFrame
+16.Export the data into a .csv file
+
+Outcome:
+innoplexus_sentiment_contest.csv file gets created in the "Home" dir of Jupyter Notebook
